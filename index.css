@@ -1,0 +1,102 @@
+.headerImg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 15%;
+}
+.headerContainer{
+    margin-left: 10%;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    text-align: left;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+.mainInfo{
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+}
+nav{
+    margin-left: 20%;
+   
+}
+.mainBody > p{
+    font-size: 16px;
+    margin-top: 5%;
+    text-align: center;
+    height: 100px;
+    background: #DDB9A3;
+    color: white;
+    line-height: 1.5;
+}
+.visit{
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FF764E;
+}
+.park{
+    margin: 10%;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #5ED3EB;
+}
+.getIn{
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FFCD69;
+}
+
+.footerImg{
+    width: 100%;
+    height: 350px;
+}
+.footerlinks{
+    background: #F9E7DC;
+}
+
+.fire{
+    height: 100px;
+    width: 100px;
+}
+.truck {
+    height: 100px;
+    width: 100px;
+}
+
+.truckInfo{
+    margin-left: 35%;
+    text-align: center;
+    width: 300px;
+    
+}
+.inFo{
+    margin-bottom: 10%;
+    margin-left: 35%;
+    text-align: center;
+    width: 300px;
+}
+
+.visit:hover ,.park:hover,.getIn:hover{
+    background:white;
+    color: #DDB9A3;
+    transition-duration: 1.5s;
+}
